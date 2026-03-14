@@ -1,0 +1,16 @@
+{
+  "name": "pubg-mobile-deobfuscator-vite",
+  "version": "0.0.0",
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^8.0.0",
+    "vite-plugin-purgecss": "^0.2.13"
+  },
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "type": "module"
+}
